@@ -34,11 +34,11 @@ client.on('message', message => {
                                     READ_MESSAGES: true
                                 });
                     let embed = new Discord.RichEmbed()
-                                .setTitle('**New Ticket.**')
+                                .setTitle('**شكوى جديده**')
                                 .setColor("RANDOM")
                                 .setThumbnail(`${message.author.avatarURL}`)
-                                .addField('Subject', args)
-                                .addField('Author', message.author)
+                                .addField('الموضوع', args)
+                                .addField('المرسل', message.author)
                                 .addField('Channel', `<#${message.channel.id}>`);
 
                                 ticket.sendEmbed(embed);
