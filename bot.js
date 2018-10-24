@@ -12,7 +12,7 @@ const queue = new Map();
 const PREFIX = '1';
 
 client.on('ready', () => {
-  client.channels.find(ch => ch.id === "504323409627316224" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "504323409627316224" && ch.type === '»  `  Family -').join();
 });
 
 client.on('warn', console.warn);
